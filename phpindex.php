@@ -28,14 +28,13 @@ require_once __DIR__ . '/functions/utilities.php';
   <div class="disc-cover">
     <div>
       <?php foreach ($disc as $key => $value) { ?>
-              <img src="<?php importFromApi ($key, $value, 'poster')?>" />
-              <h2><?php importFromApi ($key, $value, 'title') ?></h2>
-            </div>
+        <img src="<?php importFromApi ($key, $value, 'poster')?>" />
+        <h2><?php importFromApi ($key, $value, 'title') ?></h2>
+    </div>
         
-            <div>
-              <p><?php importFromApi ($key, $value, 'author') ?></p>
-              <p><?php importFromApi ($key, $value, 'year') ?></p>
-        
+    <div>
+      <p><?php importFromApi ($key, $value, 'author') ?></p>
+      <p><?php importFromApi ($key, $value, 'year') ?></p>
       <?php } ?>
     </div>
   </div>

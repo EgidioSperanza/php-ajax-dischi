@@ -44,20 +44,23 @@ main {
 
 .disc-cover {
   width: calc((1200px / 5) - 30px);
+  height: 400px;
   background-color: #2e3a46;
   padding: 20px;
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-}
+  justify-content: space-between;
 
+}
 img {
   width: 100%;
+  margin-bottom: 20px;
 }
 
 h2 {
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 p {

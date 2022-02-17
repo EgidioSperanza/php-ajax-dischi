@@ -2,7 +2,7 @@
 
 function filteredBy($array, $filter)
 {
-    $filtered = [];
+    $filtered = ['All'];
     foreach ($array as $arrayEl) {
         foreach ($arrayEl as $key => $value) {
             if ($key === $filter && !(in_array($value, $filtered))) {
